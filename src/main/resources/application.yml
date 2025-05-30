@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: FullStack
+  datasource:
+    url: jdbc:mysql://localhost:3306/fullstack
+    username: root
+    password: 4433
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
